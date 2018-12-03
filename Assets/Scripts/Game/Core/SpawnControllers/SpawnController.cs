@@ -6,7 +6,7 @@ using Zenject;
 
 namespace Game.Core.SpawnControllers
 {
-    public class SpawnController : ISpawnSource
+    public class SpawnController 
     {
         private readonly ICommandExecutor _commandExecutor;
         private readonly IFactory<IProjectile, ICommand> _commandFactory;
@@ -20,8 +20,6 @@ namespace Game.Core.SpawnControllers
             _commandExecutor = commandExecutor;
             _projectilesFactory = projectilesFactory;
         }
-
-        public event Action<Vector2, ICommand> OnSpawn;
 
         private void Spawn(Vector2 origin, Vector2 target)
         {
