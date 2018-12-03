@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7992fe17cd4b8ea48bae401026f28e, type: 3}
+  m_Name: EnemySettings
+  m_EditorClassIdentifier: 
+  _spawnMaxAngle: 75
+  _cooldown: 0.95
+  _levelsSettings:
+  - _startFromScore: 0
+    _projectileSpeed: 1
+    _scoreForKill: 10
+  - _startFromScore: 100
+    _projectileSpeed: 1.1
+    _scoreForKill: 15
+  - _startFromScore: 250
+    _projectileSpeed: 1.3
+    _scoreForKill: 20
+  - _startFromScore: 450
+    _projectileSpeed: 1.5
+    _scoreForKill: 30
+  - _startFromScore: 750
+    _projectileSpeed: 1.7
+    _scoreForKill: 40
+  _prefab: {fileID: 1465614389439136, guid: afd9b126282b5f6498626a7beeb2e389, type: 2}

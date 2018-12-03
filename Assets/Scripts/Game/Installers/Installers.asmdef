@@ -1,0 +1,12 @@
+{
+    "name": "Installers",
+    "references": [
+        "Game",
+        "Settings",
+        "Zenject"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,12 @@
+{
+    "name": "UI",
+    "references": [
+        "Game",
+        "Zenject",
+        "Unity.TextMeshPro"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
